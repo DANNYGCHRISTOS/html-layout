@@ -1,0 +1,69 @@
+body {
+  margin: 0;
+  padding: 20px;
+}
+
+.TopParentRect {
+  width: 100%;
+  border: 3px solid black;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.verChildRec {
+  height: 80px;
+  width: 40px;
+  margin: auto;
+  margin-left: 50px;
+  background-color: blueviolet;
+  display: inline-block;
+}
+.medChildRect {
+  height: 180px;
+  width: 360px;
+  display: inline-block;
+  background-color: rgb(16, 233, 16);
+  margin: auto;
+  margin-left: 50px;
+}
+.Childcircle {
+  height: 180px;
+  width: 180px;
+  border-radius: 50%;
+  background-color: rgb(23, 129, 172);
+  display: inline-block;
+  margin: auto;
+  margin-left: 50px;
+}
+
+.ParentDottedRect {
+  width: 100%;
+  border: black dotted;
+  padding: 50px;
+  box-sizing: border-box;
+  margin-top: 25px;
+  box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, 0.2);
+}
+
+.DotedChild {
+  width: 100%;
+  height: 200px;
+  background-color: lemonchiffon;
+  box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, 0.2);
+}
+.BottomRec {
+  width: 50%;
+  border: 1px solid #ccc;
+  background-color: white;
+  padding: 100px;
+  box-sizing: border-box;
+  margin: 25px auto;
+  box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, 0.2);
+}
+
+h1 {
+  text-align: center;
+  color: rgb(4, 4, 202);
+  letter-spacing: 15px;
+  
+}
